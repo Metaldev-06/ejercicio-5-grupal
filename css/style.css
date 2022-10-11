@@ -1,10 +1,14 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap);
+
 :root {
     --color-background: #131415;
     --color-primary: #FFA400;
     --color-secondary: #FC2933;
     --color-text: #FFFFFF;
-    --color-shadow: #000000;
+    --color-shadow: rgba(1, 2, 7, 0.5);
     --color-card: #252525;
+    --color-gradient: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    --main-font: Montserrat, sans-serif;
 }
 
 * {
