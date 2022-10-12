@@ -250,3 +250,27 @@ section#hero {
 }
 
 /* FIN SECCIÓN CATEGORÍAS */
+
+/* FOOTER  */
+
+footer {
+    color: var(--color-text);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 50px 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer span {
+    font-weight: 700;
+}
+
+/* FIN FOOTER  */
