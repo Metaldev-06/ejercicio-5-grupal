@@ -250,3 +250,82 @@ section#hero {
 }
 
 /* FIN SECCIÓN CATEGORÍAS */
+
+/*SECCIÓN POPULARES*/
+
+#popular {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    padding: 20px 0px;
+}
+
+#popular h2 {
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.popular-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 10px 5px;
+}
+
+.popular {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-card);
+    padding: 15px 20px;
+    border-radius: 1rem;
+    border: 1px solid var(--color-border);
+    gap: 10px;
+    margin-bottom: 20px;
+    justify-content: center;
+}
+
+.popular-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.popular-top h3 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.popular-top p {
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 3px;
+}
+ 
+.popular-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.popular span {
+    font-size: 20px;
+    font-weight: 700;
+    background-image: var(--color-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.btn-agregar {
+    font-weight: 500;
+    border-radius: 15px;
+    background-image: var(--color-gradient);
+    border: none;
+    cursor: pointer;
+    padding: 5px 15px;
+}
