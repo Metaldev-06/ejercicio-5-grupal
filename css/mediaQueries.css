@@ -17,5 +17,12 @@
   }
 }  
 
+@media (max-width: 576px) {
+  .footer-links {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
 @media (max-width: 480px) {
 }
