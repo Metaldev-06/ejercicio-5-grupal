@@ -6,7 +6,10 @@
     --color-secondary: #FC2933;
     --color-text: #FFFFFF;
     --color-shadow: rgba(1, 2, 7, 0.5);
+
     --color-border: #000;
+
+
     --color-card: #252525;
     --color-gradient: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
     --main-font: Montserrat, sans-serif;
@@ -18,6 +21,7 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
+
     color: var(--color-text);
     font-family: var(--main-font);
 }
@@ -284,3 +288,6 @@ section#hero {
 }
 
 /* FIN SECCIÓN CATEGORÍAS */
+
+}
+
