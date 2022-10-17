@@ -1,6 +1,31 @@
 @import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;900&display=swap);
 
 :root {
+
+    --color-background: #131415;
+    --color-primary: #FFA400;
+    --color-secondary: #FC2933;
+    --color-text: #FFFFFF;
+    --color-shadow: rgba(1, 2, 7, 0.5);
+
+    --color-border: #000;
+
+
+    --color-card: #252525;
+    --color-gradient: linear-gradient(98.81deg, #FFA100 -0.82%, #FF005C 101.53%);
+    --main-font: Montserrat, sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+
+    color: var(--color-text);
+    font-family: var(--main-font);
+
   --color-background: #131415;
   --color-primary: #ffa400;
   --color-secondary: #fc2933;
@@ -20,6 +45,7 @@
   list-style: none;
   color: var(--color-text);
   font-family: var(--main-font);
+
 }
 
 body {
@@ -29,6 +55,40 @@ body {
 main {
   width: 90%;
   margin: auto;
+}
+/* HEADER SECTION */
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0px 90px 0px 30px;
+    position: relative;
+    top: 0;
+      
+}
+
+.navbar,
+.listaNavbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.listaNavbar a {
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+.listaNavbar i{
+    color: #FFA400;
+   font-size: 20px;
+    
 }
 
 /* HERO SECTION */
@@ -250,6 +310,10 @@ section#hero {
 /* FIN SECCIÓN CATEGORÍAS */
 
 
+
+
+
+
 /*SECCIÓN POPULARES*/
 
 #popular {
@@ -326,7 +390,7 @@ section#hero {
 }
 
 /* FIN SECCION POPULARES */
-=======
+
 /* FOOTER  */
 
 footer {
@@ -350,4 +414,5 @@ footer span {
 }
 
 /* FIN FOOTER  */
+
 
