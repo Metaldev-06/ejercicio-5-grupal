@@ -18,4 +18,44 @@
 }  
 
 @media (max-width: 480px) {
+
+ .listaNavbar{
+    position: absolute;
+    top: 90px;
+    left: 5%;
+    right: 5%;
+    width: 35%;
+    flex-direction: column;
+    background: black;
+    border: 2px solid #FFA400;
+    border-top: 0px;
+    border-radius: 0px 0px 15px 15px;
+    align-items: center;
+    padding: 45px 30px;
+    gap: 25px ;
+    z-index: 2;
+    display:none;
+    
+  }
+.listaNavbar a{
+  font-size: 18px;
+
 }
+.menu-label{
+  display: flex;
+  cursor: pointer;
+  
+}
+.menu-label i{
+  height: 10px;
+    
+}
+
+
+#menu-toggle:checked + .listaNavbar{
+  display: flex;
+}
+
+}
+
+

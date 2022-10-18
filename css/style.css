@@ -30,6 +30,16 @@ main {
     width: 90%;
     margin: auto;
 }
+
+
+.menu-label i{
+    color: #FFA400;
+}
+#menu-toggle, .menu-label{
+    display:none;
+       
+    }
+
 /* HEADER SECTION */
 
 header{
@@ -65,6 +75,9 @@ header{
     
 }
 
+.menu-label{
+    font-size: 30px;
+}
 /* HERO SECTION */
 
 section#hero {
