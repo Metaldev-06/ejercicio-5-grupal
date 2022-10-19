@@ -175,10 +175,13 @@ section#hero {
   font-weight: 500;
 }
 
+.recommend {
+  flex-wrap: nowrap;
+}
 #hero .recommend {
   display: flex;
   justify-content: center;
-  flex-wrap: wrap;
+ 
   align-items: center;
   gap: 40px;
   padding-bottom: 30px;
@@ -190,7 +193,7 @@ section#hero {
   background-color: var(--color-card);
   display: flex;
   justify-content: space-between;
-  border-radius: 15px;
+   border-radius: 15px;
   padding: 20px 15px;
   box-shadow: 0px 0px 50px var(--color-shadow);
 }
@@ -248,7 +251,7 @@ section#hero {
 }
 .categorias-container {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: nowrap;
   justify-content: center;
   gap: 4%;
 }
@@ -345,8 +348,7 @@ section#hero {
 .popular-container {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-around;
+   justify-content: space-around;
   gap: 15px;
   padding: 10px 0px;
 }

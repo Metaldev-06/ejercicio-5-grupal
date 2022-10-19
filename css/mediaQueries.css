@@ -15,6 +15,12 @@
   .hero-info h1, p, h2 {
     text-align: center;
   }
+
+  .recommend {
+    flex-wrap: wrap;
+  }
+  .categorias-container {
+       flex-wrap: wrap;
 }  
 
 @media (max-width: 576px) {
